@@ -1,0 +1,7 @@
+To bypass SSL use SSLStrip tool made by Moxie Mar. But it does not work on browsers that support HSTS (HTTP Strict Transport Security) like Chrome, Firefox, and Safari.
+
+Alternative of SSLStrip
+1. Start packet sniffer
+2. Start ARP Spoofer 
+3. Run-> bettercap -iface eth0 -caplet hstshijack/hstshijack
+4. Clear browsing histroy 
